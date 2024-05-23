@@ -42,7 +42,7 @@ Create a database named `hiking` followed by a table called `hikes` and fill it 
     - duration
     - elevation_gain
     - description
-    - created_at 
+    - created_at
     - updated_at (if needed)
 
 Once done, you can retrieve some data from an existing website like [visandro](https://www.visorando.be/) or [wikiloc](https://www.wikiloc.com/).
@@ -119,7 +119,7 @@ All the visitors of the website can see this page.
 If a visitor wants to create an account to be able to create hikes, he has to subscribe in a specific page or in a modal.
 Send an email to the user when he completes his subscription.
 
-> I advise you to install & use [**PHPMailer**](https://github.com/PHPMailer/PHPMailer) instead of using the `mail()` function which is not very secure. 
+> I advise you to install & use [**PHPMailer**](https://github.com/PHPMailer/PHPMailer) instead of using the `mail()` function which is not very secure.
 
 #### User profile
 
