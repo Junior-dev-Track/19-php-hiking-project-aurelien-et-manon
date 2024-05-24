@@ -11,6 +11,8 @@
 
 ## The mission
 
+TEST
+
 As you may know, your coach is a fan of hiking. He asks you to develop an app able to store his favorites trails !
 This website must be collaborative. It means that users can connect & add their own hikes.
 Help hikers to connect each others for building a better world.
