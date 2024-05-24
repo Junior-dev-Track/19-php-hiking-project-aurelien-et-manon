@@ -1,2 +1,4 @@
 src/models/config.php
 vendor
+info.txt
+.env

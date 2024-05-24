@@ -20,6 +20,8 @@ try {
 
     $url_base = "19-php-hiking-project-aurelien-et-manon";
 
+    echo $url_path;
+
     switch ($url_path) {
       case "/":
       case $url_base:
