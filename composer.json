@@ -1,5 +1,11 @@
 {
-    "require-dev": {
-        "barryvdh/laravel-debugbar": "^3.13"
-    }
+  "autoload": {
+    "classmap": [
+      "./"
+    ]
+  },
+  "require": {
+    "ext-pdo": "*",
+    "vlucas/phpdotenv": "^5.6"
+  }
 }
