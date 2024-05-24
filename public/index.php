@@ -10,12 +10,12 @@ ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
 
-require_once 'vendor/autoload.php';
+require_once '../vendor/autoload.php';
 
 session_start();
 
 try {
-    $url_path = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), "/");
+    $url_path = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), "/public");
     $method = $_SERVER['REQUEST_METHOD']; // GET -- POST
 
     $url_base = "19-php-hiking-project-aurelien-et-manon";
